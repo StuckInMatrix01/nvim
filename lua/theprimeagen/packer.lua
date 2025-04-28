@@ -42,15 +42,12 @@ return require("packer").startup(function(use)
 				ts_update()
 			end,}
   use("nvim-treesitter/playground")
-
-  use("~/personal/harpoon")
-
+  use("theprimeagen/harpoon")
   use("theprimeagen/vim-be-good")
   use("theprimeagen/refactoring.nvim")
   use("mbbill/undotree")
   use("tpope/vim-fugitive")
   --use("nvim-treesitter/nvim-treesitter-context");
-
   use {
 	  "VonHeikemen/lsp-zero.nvim",
 	  branch = "v1.x",
